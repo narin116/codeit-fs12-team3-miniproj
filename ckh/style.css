@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px;
+}
+a {
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.img-i {
+  width: 350px;
+  height: 600px;
+}
