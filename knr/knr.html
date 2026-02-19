@@ -4,29 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kim Narin</title>
-    <style>
-      #title-txt {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      nav {
-        margin: 20px;
-        border-bottom: 1px solid rgb(56, 54, 54);
-      }
-      .main {
-        border: 1px solid rgb(110, 110, 110);
-        border-radius: 25px;
-        margin: 20px;
-        padding: 20px;
-      }
-      .main-txt {
-        margin: 20px;
-      }
-      .main-description {
-        font-weight: bold;
-      }
-    </style>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -42,6 +21,7 @@
         alt="대표 사진"
       />
       <div class="main-txt">
+        <p class="main-description-name">김나린</p>
         <p class="main-description">희망 직무 : 풀스택 개발자</p>
         <p class="main-description">
           취미 : 넷플릭스 보기, 티빙 보기, 디즈니 플러스 보기, 요리 하기, 개랑
@@ -51,14 +31,16 @@
           안녕하세요! 김나린입니다. 코드잇 스프린트에서 열심히 배우고 있습니다.
         </p>
       </div>
-      <img
-        class="tistory-img"
-        src="https://t1.daumcdn.net/tistory_admin/top_v2/tistory-apple-touch-favicon.png"
-        alt="tistory 로고 이미지"
-      />
-      <a class="tistory-link" href="https://record12346.tistory.com/"
-        >Tistory 놀러가기</a
-      >
+      <div class="sns">
+        <img
+          class="tistory-img"
+          src="https://t1.daumcdn.net/tistory_admin/top_v2/tistory-apple-touch-favicon.png"
+          alt="tistory 로고 이미지"
+        />
+        <a class="tistory-link" href="https://record12346.tistory.com/"
+          >Tistory 놀러가기</a
+        >
+      </div>
     </main>
     <footer></footer>
   </body>
