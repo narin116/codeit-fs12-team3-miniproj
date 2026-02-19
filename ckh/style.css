@@ -6,9 +6,10 @@
 }
 a {
   text-decoration: none;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bolder;
   cursor: pointer;
+  color: rgb(146, 146, 146);
 }
 .header {
   display: flex;
