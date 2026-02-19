@@ -11,6 +11,13 @@ a {
   cursor: pointer;
   color: rgb(146, 146, 146);
 }
+p {
+  max-width: 500px;
+  text-align: center;
+  font-size: 18px;
+  color: #444;
+  line-height: 30px;
+}
 .header {
   display: flex;
   justify-content: center;
