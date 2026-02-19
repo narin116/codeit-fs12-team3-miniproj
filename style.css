@@ -1,6 +1,11 @@
+/* header 영역 */
+
+/* main 영역 */
 .member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
+
+/* footer 영역 */
