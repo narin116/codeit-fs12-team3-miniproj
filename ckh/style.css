@@ -35,3 +35,7 @@ p {
   width: 350px;
   height: 600px;
 }
+
+li {
+  line-height: 30px;
+}
