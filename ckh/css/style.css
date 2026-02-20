@@ -39,3 +39,7 @@ p {
 li {
   line-height: 30px;
 }
+
+body {
+  background-color: rgb(251, 247, 241);
+}
