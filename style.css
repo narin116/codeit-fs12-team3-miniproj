@@ -1,3 +1,6 @@
+body {
+  background-color: #f1f1fd;
+}
 /* header 영역 */
 .header {
   display: flex;
@@ -5,41 +8,47 @@
   align-items: center;
   width: 100%;
   height: 200px;
+
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
+
 .header-text {
   text-align: center;
 }
+
 .header-text-title {
   font-size: 50px;
   color: rgb(197, 33, 33);
   line-height: 80px;
   font-weight: bolder;
 }
+
 .header-text-intro {
   font-size: 20px;
   color: rgb(116, 114, 114);
   line-height: 30px;
 }
+
 /* main 영역 */
 a {
   text-decoration: none;
 }
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.main-title {
-  margin: 20px;
-  margin-bottom: 50px;
-}
+
 .members {
   display: flex;
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
 }
+
 .member {
   width: 180px;
   margin: 50px;
@@ -47,12 +56,18 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 25px;
 }
+
 .img-container {
   display: flex;
   justify-content: center;
+  padding: 0.2px;
+  border: 6px solid rgb(88, 243, 184);
+  border-radius: 100px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 .member img {
   width: 150px;
   height: 150px;
@@ -65,23 +80,75 @@ main {
 
   background-color: rgb(215, 215, 215);
 }
+
 .member-info {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  text-align: center;
+  align-items: center;
 }
+
 .member-name {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(173, 174, 179);
 }
+
 .member-name-en {
   text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
 }
+
 .member-desc {
+  text-align: center;
   width: 160px;
   overflow: hidden;
+  line-height: 25px;
+}
+.job {
+  font-weight: 500;
+}
+.comment {
+  font-size: 15px;
+  font-weight: 400;
+
+  color: rgb(41, 41, 41);
 }
 
 /* footer 영역 */
+.footer {
+  padding: 40px 0;
+  font-size: 15px;
+  color: #57606a;
+}
+
+.footer-inner {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-center {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}

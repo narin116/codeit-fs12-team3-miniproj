@@ -8,3 +8,18 @@
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+
+.nav-to-main {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: black
+  color: white;
+  text-decoration: none; /* 밑줄 제거 */
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-to-main:hover {
+  background-color: blue
+}

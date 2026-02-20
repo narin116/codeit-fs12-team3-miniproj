@@ -1,8 +1,25 @@
 .nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 15px;
   margin: 30px;
+}
+.home_button {
+  color: black;
+  font-size: 18px;
+}
+.home_button:hover {
+  text-decoration: underline;
+}
+.about_button:hover {
+  text-decoration: underline;
+}
+.carrer_button:hover {
+  text-decoration: underline;
+}
+.edu_button:hover {
+  text-decoration: underline;
 }
 a {
   text-decoration: none;
