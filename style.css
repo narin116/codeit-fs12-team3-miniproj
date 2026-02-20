@@ -19,7 +19,7 @@ body {
 
 .header-text-title {
   font-size: 50px;
-  color: rgb(0, 0, 255);
+  color: rgb(14, 44, 112);
   line-height: 80px;
   font-weight: bolder;
 }
@@ -59,13 +59,14 @@ main {
   gap: 25px;
 }
 
+
 .img-container {
   display: flex;
   justify-content: center;
   padding: 0.2px;
   border: 6px solid rgb(88, 243, 184);
-  border-radius: 100px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .member img {
@@ -79,6 +80,7 @@ main {
   flex-direction: column;
 
   background-color: rgb(215, 215, 215);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .member-info {
