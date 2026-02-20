@@ -59,19 +59,20 @@ main {
   gap: 25px;
 }
 
-
 .img-container {
   display: flex;
   justify-content: center;
-  padding: 0.2px;
+  align-items: center;
+  width: 180px;
+  height: 180px;
   border: 6px solid rgb(88, 243, 184);
   border-radius: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .member img {
-  width: 150px;
-  height: 150px;
+  width: 165px;
+  height: 165px;
   border-radius: 50%;
   object-fit: cover;
   margin: 5px;
