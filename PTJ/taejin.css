@@ -10,6 +10,24 @@ header {
   color: white;
   text-align: center;
   padding: 30px;
+  position: relative;
+}
+
+.return-btn {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid white;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.return-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 section {
