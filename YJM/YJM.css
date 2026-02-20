@@ -32,10 +32,10 @@ main {
   border-radius: 8px;
   box-shadow: 2px 0px 15px rgba(34, 17, 1, 0.115);
 
-  color: rgb(42, 42, 42);
+  color: rgb(32, 32, 32);
   font-size: 12px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   font-family: Pretendard;
   /* border: 1px solid black; */
 }
@@ -44,7 +44,7 @@ main {
   justify-content: center;
   padding: 5px 0;
   
-
+  color: rgb(25, 25, 25);
   line-height: 25px;
   font-size: 10px;
   font-weight: 400;
@@ -52,7 +52,7 @@ main {
   font-family: Pretendard;
   /* border: 1px solid black; */
 }
-}
+
 .bottom_title {
   display: flex;
   flex-direction: column;
