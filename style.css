@@ -56,6 +56,9 @@ main {
 .img-container {
   display: flex;
   justify-content: center;
+  padding: 0.2px;
+  border: 6px solid rgb(47, 255, 50);
+  border-radius: 100px;
 }
 
 .member img {
