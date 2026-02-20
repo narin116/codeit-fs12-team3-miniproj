@@ -12,13 +12,7 @@
 .home_button:hover {
   text-decoration: underline;
 }
-.about_button:hover {
-  text-decoration: underline;
-}
-.carrer_button:hover {
-  text-decoration: underline;
-}
-.edu_button:hover {
+.nav_button:hover {
   text-decoration: underline;
 }
 a {
