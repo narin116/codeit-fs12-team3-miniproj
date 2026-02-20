@@ -56,8 +56,8 @@ main {
 .img-container {
   display: flex;
   justify-content: center;
-
-  border: 2px solid greenyellow;
+  padding: 0.2px;
+  border: 6px solid rgb(47, 255, 50);
   border-radius: 100px;
 }
 
