@@ -1,5 +1,8 @@
 /* header 영역 */
-
+.header {
+  width: 100%;
+  height: 500px;
+}
 /* main 영역 */
 .member img {
   width: 150px;
