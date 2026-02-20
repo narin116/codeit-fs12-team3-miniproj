@@ -33,9 +33,13 @@ p {
 }
 .img-i {
   width: 350px;
-  height: 600px;
+  height: 100%;
 }
 
 li {
   line-height: 30px;
+}
+
+body {
+  background-color: rgb(251, 247, 241);
 }
