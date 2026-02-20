@@ -25,11 +25,77 @@
 }
 
 /* main 영역 */
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 180px;
+    margin: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
 .member img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
+    margin: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(215, 215, 215);
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.member-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.member-name-en {
+    text-transform: uppercase;
+}
+
+.member-desc {
+    width: 160px;
+    overflow: hidden;
 }
 
 /* footer 영역 */
