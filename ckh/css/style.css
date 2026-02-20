@@ -6,9 +6,17 @@
 }
 a {
   text-decoration: none;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bolder;
   cursor: pointer;
+  color: rgb(146, 146, 146);
+}
+p {
+  max-width: 500px;
+  text-align: center;
+  font-size: 18px;
+  color: #444;
+  line-height: 30px;
 }
 .header {
   display: flex;
@@ -26,4 +34,8 @@ a {
 .img-i {
   width: 350px;
   height: 600px;
+}
+
+li {
+  line-height: 30px;
 }
