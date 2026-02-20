@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a {
+    color:#979797;
+}
+
 body {
     background: linear-gradient(135deg, #fef9ff, #e8f7ff);
     color: #333;
@@ -87,11 +91,4 @@ body {
     font-size: 18px;
     margin-bottom: 5px;
     color: #444;
-}
-
-.footer {
-    text-align: center;
-    padding: 25px;
-    font-size: 14px;
-    color: #777;
 }
